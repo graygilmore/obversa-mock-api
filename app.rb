@@ -11,16 +11,7 @@ module Obversa
 
       namespace "/api" do
         get "/products.json" do
-          json([
-            {
-              name: "T-Shirt",
-              price: "$9.99"
-            },
-            {
-              name: "Toque",
-              price: "$30.75"
-            }
-          ])
+          json(send_file("mocks/products.json"))
         end
       end
     end
