@@ -10,9 +10,8 @@ module Obversa
       set :port, 9494
 
       namespace "/api" do
-        get "/products.json" do
-          json(send_file("mocks/products.json"))
-        end
+        get("/products.json") { json(send_file("mocks/products.json")) }
+        get("/products/:id.json") { json(send_file("mocks/products/1.json")) }
       end
     end
   end
