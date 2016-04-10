@@ -1,6 +1,7 @@
 require "sinatra/base"
 require "sinatra/contrib"
 require "json"
+require "pry"
 
 module Obversa
   module API
