@@ -1,0 +1,41 @@
+{
+  "id": 1,
+  "name": "Categories",
+  "root": {
+    "id": 1,
+    "name": "Categories",
+    "pretty_name": "Categories",
+    "permalink": "categories",
+    "parent_id": null,
+    "taxonomy_id": 1,
+    "taxons": [{
+      "id": 3,
+      "name": "Bags",
+      "pretty_name": "Categories -\u003e Bags",
+      "permalink": "categories/bags",
+      "parent_id": 1,
+      "taxonomy_id": 1
+    }, {
+      "id": 4,
+      "name": "Mugs",
+      "pretty_name": "Categories -\u003e Mugs",
+      "permalink": "categories/mugs",
+      "parent_id": 1,
+      "taxonomy_id": 1
+    }, {
+      "id": 5,
+      "name": "Clothing",
+      "pretty_name": "Categories -\u003e Clothing",
+      "permalink": "categories/clothing",
+      "parent_id": 1,
+      "taxonomy_id": 1
+    }, {
+      "id": 11,
+      "name": "New node",
+      "pretty_name": "Categories -\u003e New node",
+      "permalink": "categories/new-node",
+      "parent_id": 1,
+      "taxonomy_id": 1
+    }]
+  }
+}
